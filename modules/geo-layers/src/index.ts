@@ -36,6 +36,8 @@ export {getURLFromTemplate as _getURLFromTemplate} from './tile-layer/utils';
 export {default as _Tileset2D} from './tile-layer/tileset-2d';
 export {default as _Tile2DHeader} from './tile-layer/tile-2d-header';
 
+export {convertS2BVtoOBB} from './s2-layer/s2bv-obb';
+
 // Types
 export type {H3ClusterLayerProps} from './h3-layers/h3-cluster-layer';
 export type {H3HexagonLayerProps} from './h3-layers/h3-hexagon-layer';
@@ -49,3 +51,5 @@ export type {TerrainLayerProps} from './terrain-layer/terrain-layer';
 export type {Tile3DLayerProps} from './tile-3d-layer/tile-3d-layer';
 export type {MVTLayerProps} from './mvt-layer/mvt-layer';
 export type {GeoCellLayerProps as _GeoCellLayerProps} from './geo-cell-layer/GeoCellLayer';
+
+export type {S2BoundingVolume} from './s2-layer/s2bv-obb';
